@@ -21,3 +21,10 @@ conda install jupyter
 
 #Once Jupyter is installed we can work with it by activating the Jupyter notebook
 jupyter notebook
+
+#install matplotlib
+conda install -c conda-forge matplotlib
+
+#install numpy 
+conda install -c anaconda numpy
+

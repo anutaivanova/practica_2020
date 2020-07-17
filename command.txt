@@ -1,0 +1,23 @@
+#create a virtual environment
+conda create -n tensorflow python=3.6
+
+#activate environment
+activate tensorflow
+
+#install cpu version of tensorflow inside our created environment
+pip install — ignore-installed — upgrade tensorflow
+
+#Import the tensorflow package using
+import tensorflow as tf
+
+#Check for tensorflow version that has been installed
+tf.__version__
+
+#to get out of python session
+quit()
+
+#To work in Jupyter’s interactive environment using tensorflow
+conda install jupyter
+
+#Once Jupyter is installed we can work with it by activating the Jupyter notebook
+jupyter notebook
